@@ -1,0 +1,103 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Body Styling */
+  body {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    line-height: 1.6;
+  }
+  
+  /* Header Styling */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #111; /* Slightly lighter black for the header */
+    border-bottom: 1px solid #333; /* Subtle border */
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    background-color: #333; /* Dark gray on hover */
+    border-radius: 5px;
+  }
+  
+  .menu-toggle {
+    display: none; /* Hide menu toggle for simplicity */
+  }
+  
+  /* Section Styling */
+  section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  p {
+    margin-bottom: 20px;
+    color: #ddd; /* Softer white for text */
+  }
+  
+  /* Contact Section Styling */
+  .contact ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact li {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #ccc; /* Softer white for details */
+  }
+  
+  .contact a {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px dashed #555;
+  }
+  
+  .contact a:hover {
+    border-bottom: 1px dashed #fff;
+  }
+  
+  /* Footer Styling */
+  footer {
+    background-color: #111;
+    color: #777;
+    text-align: center;
+    padding: 10px 20px;
+    border-top: 1px solid #333;
+  }
+  
+  footer p {
+    margin: 0;
+  }
